@@ -1,0 +1,140 @@
+* {
+  font-family: "Press Start 2P", cursive;
+}
+
+#contenidoPrincipal {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+h1 {
+  padding: 20px;
+  background-color: rgb(235, 158, 158);
+  text-align: center;
+  color: #000;
+}
+
+#contenidoPrincipal > img {
+  border: 22px solid white;
+}
+
+#cajaPuntuacion {
+  font-size: 40px;
+  color: red;
+  padding: 20px;
+  background-color: rgb(203, 221, 226);
+}
+
+#tablaJuego {
+  border-width: 47px;
+  border-style: solid;
+  border-image: url(imagenes/borde_tabla_juego.png) round 46 46;
+  margin-top: -170px;
+  margin-left: 400px;
+}
+#puntuacion {
+  color: #000;
+  text-align: center;
+  font-weight: bold;
+}
+
+#contenidoPrincipal {
+  margin-left: 100px;
+}
+
+#aside {
+  display: flex;
+  justify-content: left;
+}
+
+button {
+  padding: 20px;
+  margin: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgb(235, 158, 158);
+  border: none;
+  cursor: pointer;
+}
+
+#formularioPuntuacion {
+  margin: auto;
+  background-color: rgb(165, 204, 226);
+  padding: 20px;
+}
+
+#finalJuego {
+  padding: 20px;
+  background-color: rgb(233, 154, 154);
+  color: black;
+}
+
+input {
+  padding: 20px;
+}
+
+input[type="button"] {
+  margin-left: 20px;
+  background-color: rgb(172, 188, 224);
+  border: none;
+  cursor: pointer;
+}
+
+#tablaPuntuaciones {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: space-around;
+  flex-flow: column;
+  background-color: rgb(221, 127, 127);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#finalJuego {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#puntuaciones {
+  display: flex;
+  justify-content: start;
+  margin: 10px;
+}
+
+#tablaPuntuaciones span {
+  margin-right: 10px;
+  padding-right: 10px;
+  background-color: yellow;
+  padding: 10px;
+}
+
+#tablaPuntuaciones > p {
+  text-align: center;
+  background-color: rgb(118, 118, 228);
+  padding: 20px;
+  color: #fff;
+}
+
+.tablaPuntuaciones {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+#tablaJuego{
+    background-image: url('sprites/grass.png');
+}
+
+#backgroundImageGame{
+    margin-top: -200px;
+    margin-left: 300px;
+}
+
+body{
+    background: url(imagenes/fondo.png) no-repeat;
+    background-size: cover;
+}
